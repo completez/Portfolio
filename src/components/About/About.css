@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap");
+
+* {
+    font-family: 'Kanit', sans-serif;
+}
+
+.whitespace-pre-line {
+    white-space: pre-line;
+  }
