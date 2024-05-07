@@ -1,19 +1,7 @@
 import React from 'react';
 import "./About.css";
 import { Fade } from "react-awesome-reveal";
-import {
-    Timeline,
-    TimelineItem,
-    TimelineConnector,
-    TimelineIcon,
-    Typography,
-    TimelineHeader,
-} from "@material-tailwind/react";
-import {
-    BellIcon,
-    ArchiveBoxIcon,
-    CurrencyDollarIcon,
-} from "@heroicons/react/24/solid";
+
 
 export default function About() {
     return (
@@ -21,7 +9,7 @@ export default function About() {
             <div className="bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-5xl mx-auto px-4 md:px-0">
-                    <h1 className='text-5xl mb-8'>About Me</h1>
+                    <h1 className='text-5xl mb-8' id='AboutMe'>About Me</h1>
                     <section className="personal-info bg-[#1e1e1f] border-amber-200 px-6 md:px-10 py-10 md:py-12 text-left border rounded-3xl text-amber-50 mb-8">
                         <div className="mockup-window border border-base-300">
                             <Fade direction="left"><h1 className='text-4xl mb-6'>ประวัติส่วนตัว</h1></Fade>

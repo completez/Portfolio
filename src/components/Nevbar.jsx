@@ -13,9 +13,9 @@ export default function Navbar() {
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-        <li><Link to="/navbar">Navbar</Link></li>
-        <li><Link to="/menu">Menu</Link></li>
-        <li><Link to="/about">About</Link></li>
+        {/* <li><Link to="/navbar">Navbar</Link></li> */}
+        <li><herf to="#AboutMe">Menu</herf></li>
+        <li><herf to="/about">About</herf></li>
           <li><a>Project</a></li>
           <li><a>Certificate</a></li>
           <li><a>Contact</a></li>
